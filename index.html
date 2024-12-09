@@ -2,12 +2,61 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <meta name="theme-color" content="#000000" />
+    <title>Vite + React + TypeScript</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A modern web app built with Vite, React, and TypeScript" />
+    <meta name="author" content="Your Name or Company Name" />
+    <meta name="keywords" content="vite, react, typescript, modern web app, development" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags (for better social media sharing) -->
+    <meta property="og:title" content="Vite + React + TypeScript" />
+    <meta property="og:description" content="A modern web app built with Vite, React, and TypeScript" />
+    <meta property="og:image" content="/path/to/your/image.jpg" />
+    <meta property="og:url" content="https://yourwebsite.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@yourtwitterhandle" />
+    <meta name="twitter:title" content="Vite + React + TypeScript" />
+    <meta name="twitter:description" content="A modern web app built with Vite, React, and TypeScript" />
+    <meta name="twitter:image" content="/path/to/your/image.jpg" />
+
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/vite.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <link rel="icon" sizes="192x192" href="/icons/android-chrome-192x192.png" />
+    <link rel="icon" sizes="512x512" href="/icons/android-chrome-512x512.png" />
+
+    <!-- Preload important assets -->
+    <link rel="preload" href="/src/main.tsx" as="script" />
+    <link rel="preload" href="/src/styles.css" as="style" />
+
+    <!-- Web App Manifest for PWA support -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Meta Tag for Web App Theme Color -->
+    <meta name="theme-color" content="#61dafb" />
+
+    <!-- Content Security Policy (for added security) -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self';">
+
+    <!-- Charset Encoding -->
+    <meta charset="UTF-8" />
+
+    <!-- Social Media & App Configuration -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
   </head>
   <body>
     <div id="root"></div>
+    <!-- Main TypeScript React Entry Point -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
