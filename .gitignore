@@ -1,24 +1,140 @@
-# Logs
-logs
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+*.local
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+*.tgz
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-node_modules
-dist
-dist-ssr
+# Build output directories
+/build/
+/public/
+/tmp/
+/temp/
+/out/
+
+# Dependency directories
+/.yarn/
+/.yarnrc.yml
+/.pnp/
+.pnp.js
+.pnp.cjs
+
+# IDEs and Editors
+
+## Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+## JetBrains (IntelliJ, PhpStorm, WebStorm, etc.)
+.idea/
+
+## Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+## Emacs
+*~ 
+.#*
+
+## Vim
+*.swp
+*.swo
+
+## Other Editors
+*.log
+
+# OS-specific files
+.DS_Store               # macOS Finder metadata
+Thumbs.db               # Windows Explorer thumbnail cache
+Desktop.ini             # Windows desktop configuration file
+ehthumbs.db             # Windows Explorer thumbnail cache
+
+# Operating System files
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux trash folder
+.Trash-*
+
+# Backup files
+*.bak
+*.sw?
+*.swo
+*.swn
+*.tmp
+
+# Temporary files from editors
+*.~*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# NPM package distribution
+*.tgz
+
+# Optional npm cache directory
+.npm/
+
+# Yarn & pnpm cache directories
+.yarn/
+.pnp/
+
+# Documentation
+docs/
+*.pdf
+*.docx
+
+# Other
+*.env
+.env.* 
+*.env.local
+*.env.production
+*.env.test
+
+# Docker files
+docker-compose.override.yml
+Dockerfile.*
+
+# Testing and Coverage reports
+/coverage/
+/test-coverage/
+/reports/
+
+# Other tool-related or project-specific ignores
+*.eslintcache
+*.prettiercache
+
+# Jest and other testing output
+/coverage/
+/jest-coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Build artifacts
+/build/
+/temp/
+/out/
